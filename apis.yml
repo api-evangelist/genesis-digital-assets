@@ -1,8 +1,23 @@
 aid: genesis-digital-assets
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/genesis-digital-assets.png
 name: Genesis Digital Assets
-description: 'Genesis Digital Assets is a company surfaced as a portfolio company of electric-capital,
-  paradigm, ribbit-capital and added to the API Evangelist network as a stub for enrichment. Sector: infrastructure.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: 'Genesis Digital Assets (GDA) is a global digital infrastructure company that
+  designs, builds, and operates industrial-scale data centers for high-performance computing
+  workloads, including Bitcoin networks and AI operations. GDA runs mining and computing
+  facilities across multiple countries and does not sell products or services to the public.
+  Surfaced as a portfolio company of electric-capital, paradigm, and ribbit-capital in the
+  API Evangelist network. No public developer API, portal, or SDK is published as of this pass.'
 url: https://raw.githubusercontent.com/api-evangelist/genesis-digital-assets/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Infrastructure
+- Bitcoin
+- Cryptocurrency
+- Data Centers
+- Mining
+- High-Performance Computing
+- Blockchain
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +46,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/genesis-digital-assets-domain-security.yml
 - type: Website
   url: https://genesisdigitalassets.com/
+- type: PrivacyPolicy
+  url: https://genesisdigitalassets.com/privacy-policy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
